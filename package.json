@@ -1,0 +1,34 @@
+{
+  "name": "phosphor-leaflet",
+  "version": "0.0.1",
+  "description": "Leaflet widget for PhosphorJS",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "prepublish": "tsc -p src"
+  },
+  "author": "Juha Järvi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charto/phosphor-leaflet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charto/phosphor-leaflet/issues"
+  },
+  "homepage": "https://github.com/charto/phosphor-leaflet#readme",
+  "keywords": [
+    "leaflet",
+    "map",
+    "phosphorjs"
+  ],
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "@phosphor/widgets": "^1.5.0",
+    "@types/leaflet": "^1.2.0",
+    "leaflet": "^1.2.0"
+  }
+}
