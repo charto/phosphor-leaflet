@@ -18,7 +18,7 @@ export class LeafletMap extends Widget {
 		return(node);
 	}
 
-	onResize(msg: Widget.ResizeMessage) {
+	update() {
 		this.l.invalidateSize(false);
 	}
 
