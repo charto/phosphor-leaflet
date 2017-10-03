@@ -1,3 +1,6 @@
+// This file is part of phosphor-leaflet, copyright (c) 2017 BusFaster Ltd.
+// Released under the MIT license, see LICENSE.
+
 import 'leaflet/dist/leaflet.css!';
 import * as L from 'leaflet';
 
@@ -8,7 +11,7 @@ export class LeafletMap extends Widget {
 	constructor(mapOptions: L.MapOptions) {
 		super({ node: LeafletMap.createNode() });
 
-		this.addClass('phosphor-Leaflet');
+		this.addClass('charto-LeafletMap');
 
 		this.l = L.map(this.node, mapOptions);
 	}

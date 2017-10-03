@@ -25,7 +25,7 @@ map.l.addLayer(L.circleMarker([0, 0]));
 Widget.attach(map, document.body);
 ```
 
-The widget uses CSS class name `phosphor-Leaflet`.
+The widget uses CSS class name `charto-LeafletMap`.
 
 License
 =======
